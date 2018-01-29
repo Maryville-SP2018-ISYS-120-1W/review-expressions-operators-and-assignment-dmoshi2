@@ -15,3 +15,22 @@
  
 */
 
+print("Daniel is building a lego model and he wants to know if he has enough room to store the model. His shelf is 8 inches by 36 inches 12 inches tall. His model is 4 inches by 12 inches and 8 inches tall. Will he have enough room on his shelf to house is new lego model?")
+
+print("Use basic arithmetic operators to find the area of his shelf and convert it to square feet and then use a compound operator to find the area of his lego model and convert that to square feet")
+
+var shelf = 8 * 36
+print(shelf)
+shelf = 288 * 12
+print(shelf)
+shelf = 3456 / 144
+let shelfsquarefeet1 = 24
+
+var model = 4 * 12
+model *= 8
+model /= 144
+let modelsquarefeet1 = 2
+
+let answer = shelfsquarefeet1 - modelsquarefeet1
+print("Yes he will have enough room for his Lego model")
+
